@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D026FF311E1BE11A001CFFE0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026FF301E1BE11A001CFFE0 /* Character.swift */; };
+		D026FF331E1BE29E001CFFE0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026FF321E1BE29E001CFFE0 /* Player.swift */; };
+		D026FF351E1BE4AC001CFFE0 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026FF341E1BE4AC001CFFE0 /* Enemy.swift */; };
+		D026FF371E1BE787001CFFE0 /* Kulik.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026FF361E1BE787001CFFE0 /* Kulik.swift */; };
+		D026FF391E1BE94F001CFFE0 /* DevilKulik.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026FF381E1BE94F001CFFE0 /* DevilKulik.swift */; };
+		D02C77E51E21988700772E16 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = D02C77E41E21988700772E16 /* death.wav */; };
+		D02C77E71E21A4A200772E16 /* sword.wav in Resources */ = {isa = PBXBuildFile; fileRef = D02C77E61E21A4A200772E16 /* sword.wav */; };
 		D0BE259D1E1459870042810D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE259C1E1459870042810D /* AppDelegate.swift */; };
 		D0BE259F1E1459870042810D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE259E1E1459870042810D /* ViewController.swift */; };
 		D0BE25A21E1459880042810D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BE25A01E1459880042810D /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D026FF301E1BE11A001CFFE0 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D026FF321E1BE29E001CFFE0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D026FF341E1BE4AC001CFFE0 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		D026FF361E1BE787001CFFE0 /* Kulik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kulik.swift; sourceTree = "<group>"; };
+		D026FF381E1BE94F001CFFE0 /* DevilKulik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilKulik.swift; sourceTree = "<group>"; };
+		D02C77E41E21988700772E16 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		D02C77E61E21A4A200772E16 /* sword.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword.wav; sourceTree = "<group>"; };
 		D0BE25991E1459870042810D /* first-rpg-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first-rpg-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BE259C1E1459870042810D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0BE259E1E1459870042810D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +68,19 @@
 		D0BE259B1E1459870042810D /* first-rpg-game */ = {
 			isa = PBXGroup;
 			children = (
+				D02C77E41E21988700772E16 /* death.wav */,
+				D02C77E61E21A4A200772E16 /* sword.wav */,
 				D0BE259C1E1459870042810D /* AppDelegate.swift */,
 				D0BE259E1E1459870042810D /* ViewController.swift */,
 				D0BE25A01E1459880042810D /* Main.storyboard */,
 				D0BE25A31E1459880042810D /* Assets.xcassets */,
 				D0BE25A51E1459880042810D /* LaunchScreen.storyboard */,
 				D0BE25A81E1459880042810D /* Info.plist */,
+				D026FF301E1BE11A001CFFE0 /* Character.swift */,
+				D026FF321E1BE29E001CFFE0 /* Player.swift */,
+				D026FF341E1BE4AC001CFFE0 /* Enemy.swift */,
+				D026FF361E1BE787001CFFE0 /* Kulik.swift */,
+				D026FF381E1BE94F001CFFE0 /* DevilKulik.swift */,
 			);
 			path = "first-rpg-game";
 			sourceTree = "<group>";
@@ -122,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C77E71E21A4A200772E16 /* sword.wav in Resources */,
+				D02C77E51E21988700772E16 /* death.wav in Resources */,
 				D0BE25A71E1459880042810D /* LaunchScreen.storyboard in Resources */,
 				D0BE25A41E1459880042810D /* Assets.xcassets in Resources */,
 				D0BE25A21E1459880042810D /* Main.storyboard in Resources */,
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D026FF331E1BE29E001CFFE0 /* Player.swift in Sources */,
+				D026FF351E1BE4AC001CFFE0 /* Enemy.swift in Sources */,
+				D026FF371E1BE787001CFFE0 /* Kulik.swift in Sources */,
+				D026FF311E1BE11A001CFFE0 /* Character.swift in Sources */,
 				D0BE259F1E1459870042810D /* ViewController.swift in Sources */,
 				D0BE259D1E1459870042810D /* AppDelegate.swift in Sources */,
+				D026FF391E1BE94F001CFFE0 /* DevilKulik.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +314,7 @@
 				D0BE25AD1E1459880042810D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
